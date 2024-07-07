@@ -1,0 +1,61 @@
+/* Import Roboto font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 40;
+    padding: 20;
+    background-color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #333;
+    padding: 10px 5px;
+}
+
+.navbar a {
+    color: blue;
+    text-decoration: underline;
+    padding: 10px 20px;
+}
+
+.navbar a:hover {
+    background-color: #f00f0f;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    color:#0e11da;
+}
+
+p {
+    line-height: 1.6;
+    color: #101010;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.card h3 {
+    margin-top: 100px;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: rgb(22, 140, 187);
+}
