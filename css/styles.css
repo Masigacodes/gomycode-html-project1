@@ -6,6 +6,10 @@
     margin: 0;
     padding: 0;
 }
+:root{
+    /* variables */
+    --footer-header-bg:aquamarine;
+}
 nav li{
     list-style: none;
 
@@ -21,7 +25,7 @@ body {
     font-size: 16px;
 }
 header{
-    background-color: aquamarine;
+    background-color: var(--footer-header-bg);
     color: beige;
     min-height: 100px;
     padding:20px 10px ;
@@ -77,9 +81,9 @@ p {
     margin-top: 100px;
 }
 
-.footer {
+footer {
     text-align: center;
     padding: 10px;
-    background-color: #333;
+    background-color:var(--footer-header-bg);
     color: rgb(22, 140, 187);
 }
