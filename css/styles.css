@@ -1,22 +1,44 @@
 /* Import Roboto font */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+*{
+    box-sizing: border-box;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+nav li{
+    list-style: none;
 
+}
+nav a{
+    text-decoration: none;
+}
 body {
     font-family: 'Roboto', sans-serif;
     margin: 40;
     padding: 20;
     background-color: white;
+    font-size: 16px;
 }
-
-.navbar {
+header{
+    background-color: aquamarine;
+    color: beige;
+    min-height: 100px;
+    padding:20px 10px ;
+}
+.main-nav {
     display: flex;
     justify-content: space-evenly;
-    background-color: #333;
+    /* background-color: white; */
     padding: 10px 5px;
 }
 
-.navbar a {
-    color: blue;
+.main-nav a {
+    border-radius: 20px;
+    font-weight: 900;
+    color:white;
+    background-color: #7e0505;
+    font: size 15rem; ;
     text-decoration: underline;
     padding: 10px 20px;
 }
@@ -24,7 +46,9 @@ body {
 .navbar a:hover {
     background-color: #f00f0f;
 }
-
+main{
+    padding:20px ;
+}
 .container {
     width: 80%;
     margin: 20px auto;
